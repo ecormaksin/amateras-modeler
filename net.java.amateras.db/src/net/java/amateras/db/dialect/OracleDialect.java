@@ -24,7 +24,7 @@ public class OracleDialect extends AbstractDialect {
 		new ColumnType("BINARY_FLOAT", Messages.getResourceString("type.bit"), false, Types.FLOAT),
 		new ColumnType("DOUBLE PRECISION", Messages.getResourceString("type.real"), false, Types.DOUBLE),
 		new ColumnType("VARCHAR2", Messages.getResourceString("type.string"),true, Types.VARCHAR),
-		//new ColumnType("NVARCHAR2", Messages.getResourceString("type.string"),true, Types.NVARCHAR),
+		new ColumnType("NVARCHAR2", Messages.getResourceString("type.string"),true, Types.NVARCHAR),
 		new ColumnType("CHAR", Messages.getResourceString("type.char"),true, Types.CHAR),
 		//new ColumnType("NCHAR", Messages.getResourceString("type.char"),true, Types.NCHAR),
 		new ColumnType("CLOB", Messages.getResourceString("type.string"),true, Types.CLOB),
